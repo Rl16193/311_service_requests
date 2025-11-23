@@ -20,10 +20,16 @@ Ultimately, this project creates an early-warning and planning system that impro
 
 - The one-week and one-month look ahead models provide accurate forecasts, with more than 90% of the variance explained for Forestry Operations section of Environment Requests. Forestry Operation sections contribute to 85% of total environment requests. This demonstrates the model’s ability to learn highly seasonal and climate-dependent patterns. With additional tuning, the approach can be extended to other service areas such as Transportation, Waster Management, Animal Services, and Water.
 
+  <img width="1478" height="748" alt="image" src="https://github.com/user-attachments/assets/c0596a79-73d9-4a65-a6cd-5744dc56d699" />
+
+
 - Even a moderate forecasting accuracy can reduce overtime costs by 5-10%. Earlier identification of high-demand periods , allows supervisors to plan staffing, equipment, and contractor needs more strategically, reducing backlogs during weather-driven surges.
 
 - This project establishes the ground work for cleaning/harmonizing service request names and wards, which can be adapted by city analysts for other datasets. 
 
 - Anticipating these requests can allow city officials to monitor locations with higher frequency and remove hazardous tree limbs sooner, snow and ice maintenance can be deployed proactively and road/ sidewalk damage can be identified and plans for road repair can begin early (this can also in turn reduce the number of collisions and fatal injuries)
+
+  <img width="1690" height="836" alt="image" src="https://github.com/user-attachments/assets/ad3f974d-c58d-4b77-805f-7cbc7f08771e" />
+
 
 - The model can also be used to predict yearly or quarterly requests, which can allow city divisions to plan their yearly budgets and incorporate predicted maintenance workloads, material consumption needs and justify staffing levels using data-driven evidence.
