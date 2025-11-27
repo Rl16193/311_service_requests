@@ -22,22 +22,54 @@ Ultimately, this project creates an early-warning and planning system that impro
   
 ## Potential Impact
 
-- Although still in the prototype stage, the project has already demonstrated clear potential impact, such as:
+Although still in the prototype stage, the project has already demonstrated clear potential impact, such as:
 
 - The one-month look-ahead models provide accurate forecasts, with more than 90% of the variance explained for the Forestry Operations section of Environment Requests. Forestry Operation sections contribute to 85% of total environmental requests. This demonstrates the model’s ability to learn highly seasonal and climate-dependent patterns. With additional tuning, the approach can be extended to other service areas such as Transportation, Waste Management, Animal Services, and Water.
-
-<img width="1478" height="748" alt="image" src="https://github.com/user-attachments/assets/c0596a79-73d9-4a65-a6cd-5744dc56d699" />
-          Environment requests
-
-<img width="1458" height="682" alt="image" src="https://github.com/user-attachments/assets/5470fccf-f72d-428b-85b3-4fdbf7acd468" />
-
-- Even a moderate forecasting accuracy can reduce overtime costs by 5-10%. Earlier identification of high-demand periods allows supervisors to plan staffing, equipment, and contractor needs more strategically, reducing backlogs during weather-driven surges.
 
 - This project establishes the groundwork for cleaning/harmonizing service request names and wards, which can be adapted by city analysts for other datasets. 
 
 - Anticipating these requests can allow city officials to monitor locations with higher frequency and remove hazardous tree limbs sooner, snow and ice maintenance can be deployed proactively, and road/ sidewalk damage can be identified, and plans for road repair can begin early (this can in turn reduce the number of collisions and fatal injuries)
-
-  <img width="1690" height="836" alt="image" src="https://github.com/user-attachments/assets/ad3f974d-c58d-4b77-805f-7cbc7f08771e" />
-
-
+  
 - The model can also be used to predict yearly or quarterly requests, which can allow city divisions to plan their yearly budgets and incorporate predicted maintenance workloads, material consumption needs and justify staffing levels using data-driven evidence.
+
+- Even a moderate forecasting accuracy can reduce overtime costs by 5-10%. Earlier identification of high-demand periods allows supervisors to plan staffing, equipment, and contractor needs more strategically, reducing backlogs during weather-driven surges.
+
+
+<div align="center">
+  <figure>
+    <img width="1478" height="748" alt="image" src="https://github.com/user-attachments/assets/c0596a79-73d9-4a65-a6cd-5744dc56d699" />
+     <figcaption><strong> Figure 1.</strong> Actual vs Predicted Requests (Environment Division) </figcaption>       
+  </figure>
+</div>
+
+<div align = "center">
+  <figure>
+    <img width="1458" height="682" alt="image" src="https://github.com/user-attachments/assets/5470fccf-f72d-428b-85b3-4fdbf7acd468" />
+      <figcaption><strong> Figure 2.</strong> Actual vs Predicted Requests (Transportation Division) </figcaption>   
+  </figure>
+</div>
+
+<div align = "center">
+  <figure>
+    <img width="1420" height="809" alt="image" src="https://github.com/user-attachments/assets/0272b845-1208-4f25-8e1e-986d9805e62d" />
+      <figcaption><strong> Figure 3.</strong> Power BI Dashboard for Environment Division Predictions </figcaption>   
+  </figure>
+</div>
+
+
+<div align = "center">
+  <figure>
+    <img width="1546" height="875" alt="image" src="https://github.com/user-attachments/assets/078c4430-0d17-4b89-ac2b-d1fd26e1d9dc" />
+      <figcaption><strong> Figure 4.</strong> Power BI Dashboard for Transportation Division Predictions </figcaption>   
+  </figure>
+</div>
+
+
+
+
+<div align = "center">
+  <figure>
+      <img width="1690" height="836" alt="image" src="https://github.com/user-attachments/assets/ad3f974d-c58d-4b77-805f-7cbc7f08771e" />
+      <figcaption><strong> Figure 5.</strong> Road Potholes Heatmap </figcaption>   
+  </figure>
+</div>
