@@ -25,14 +25,18 @@ In parallel, ward information was harmonized to account for Toronto’s transiti
 ## Step 2: Feature Engineering and Data Enrichment
 
 To help machine learning models learn reporting behaviour and seasonality, I engineered a series of temporal and environmental features on PostgreSQL to create reusable tables for analysis, including:
-•	lag variables and rolling averages for service requests and weather data
-•	freeze–thaw indicators
-•	days since last snowfall, consecutive snowfall
+
+*	lag variables and rolling averages for service requests and weather data
+
+*	freeze–thaw indicators
+
+*	days since last snowfall, consecutive snowfall
+
 These were combined with open climate data, green-space characteristics, and spatial density metrics to capture why requests spike in specific locations and seasons.
 
 ## Step 3: Modelling and Forecasting
 
-The cleaned and enriched dataset was used to build models that predict next month’s service request volumes at the ward level. Results were strong for Forestry Operations, which account for 85% of all environment-related requests, with the model explaining over 90% of the variance. These forecasts support better staffing, reduced overtime, fewer service backlogs during peak periods, and more targeted deployment in high-need neighborhoods.
+The cleaned and enriched dataset was used to build models that predict next month’s service request volumes at the ward level. Results were strong for Forestry Operations, which account for 85% of all environment-related requests, with the model explaining over 90% of the variance. These forecasts support better staffing, reduced overtime, fewer service backlogs during peak periods, and more targeted deployment in high-need neighbourhoods.
 
 <p align = "center"> 
   <img width="1035" height="603" alt="image" src="https://github.com/user-attachments/assets/9b453d0a-19e9-46e5-b857-f7557e2f9e7a" />
@@ -49,11 +53,16 @@ The cleaned and enriched dataset was used to build models that predict next mont
 ## Step 4: Visualization and Decision Support
 
 To make the insights accessible, I built interactive Power BI dashboards showcasing:
-•	seasonal patterns and year-over-year trends
-•	ward-level differences in service demand
-•	climate correlations
-•	predicted service volumes
-A ward-level distribution mechanism allocates forecasted totals into individual service types using historical monthly patterns, enabling realistic and actionable workload planning.
+
+*	seasonal patterns and year-over-year trends
+
+*	ward-level differences in service demand
+
+*	climate correlations
+
+*	predicted service volumes
+
+A ward-level distribution mechanism allocates forecasted totals to individual service types based on historical monthly patterns, enabling realistic and actionable workload planning.
 
 <p align = "center"> 
   <img width="727" height="418" alt="image" src="https://github.com/user-attachments/assets/778c4c8b-47f8-46df-ad2d-5eb4521725e7" />
@@ -113,16 +122,21 @@ Transportation requests showed different behaviour. While volumes were highest d
 
 ## Conclusion 
 
-•	Cleaning and harmonizing 311 data are essential for reliable long-term analysis and forecasting.
-•	Weather and seasonality strongly influence service demand, particularly for Environment and Transportation requests.
-•	Forecasting performance varies by division, highlighting the need to group requests by operational or weather-related drivers.
-•	Extreme weather events create significant demand spikes and explain most model outliers.
-•	Ward-level forecasting across service types supports more equitable and proactive allocation of city resources.
-•	Even moderate forecast accuracy can reduce reactive maintenance, overtime costs, and service backlogs.
+*	Cleaning and harmonizing 311 data are essential for reliable long-term analysis and forecasting.
+
+*	Weather and seasonality strongly influence service demand, particularly for Environment and Transportation requests.
+
+*	Forecasting performance varies by division, highlighting the need to group requests by operational or weather-related drivers.
+
+*	Extreme weather events create significant demand spikes and explain most model outliers.
+
+*	Ward-level forecasting across service types supports more equitable and proactive allocation of city resources.
+
+*	Even moderate forecast accuracy can reduce reactive maintenance, overtime costs, and service backlogs.
 
 ## Future Applications
 
-Although transportation forecasting remains more complex due to irregular demand patterns, this project demonstrates how harmonized data and contextual modelling can shift municipal operations from reactive to proactive. The framework can be extended across additional divisions and integrated with collision data to strengthen public safety interventions—for example, by prioritizing pothole repairs in high-risk areas. We can also incorporate ward level demographics to study the reporting behaviour across financial income, immigrant population ratio, age of population and other key characteristics.
+Although transportation forecasting remains more complex due to irregular demand patterns, this project demonstrates how harmonized data and contextual modelling can shift municipal operations from reactive to proactive. The framework can be extended across additional divisions and integrated with collision data to strengthen public safety interventions—for example, by prioritizing pothole repairs in high-risk areas. We can also incorporate ward-level demographics to study the reporting behaviour across financial income, immigrant population ratio, age of population and other key characteristics.
 Next steps include developing an interactive application to surface these insights with a strong focus on operational pain points in city maintenance. This would involve incorporating financial data, contractor and builder performance data, and infrastructure lifecycle metrics to evaluate which service providers deliver the most value. Such an approach could support more transparent performance comparisons, improve planning decisions, and help ensure better utilization of taxpayer funds.
 With thoughtful data cleanup, feature engineering, and predictive modelling, Toronto’s 311 data can evolve from a reactive reporting system into a strategic planning tool—supporting safer infrastructure, more efficient operations, and more equitable service delivery across the city.
 I welcome collaboration and guidance on accessing relevant datasets or advancing the application development. Interested contributors are encouraged to reach out.
