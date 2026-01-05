@@ -23,8 +23,9 @@ A major early challenge was standardizing the service request data. The dataset 
 In parallel, ward information was harmonized to account for Toronto’s transition from a 47-ward model to the current 25 wards. Outdated ward names were remapped using geospatial analysis, creating a consistent spatial framework for historical analysis and forecasting.
 
 Links to the dataset used in this study: 
-https://1drv.ms/f/c/17fe194b0d499b50/IgAm-rqnytlHQZbOFDELLp7cAfNGFX7GDpH7ZDo3ZOhmMvE
-https://1drv.ms/f/c/17fe194b0d499b50/IgAKtrD9TClGTKTqB77roJowAXDxUUXS-YVxttIkIvhZ3-w
+
+Green Spaces, Land Use Charecteristics and Weather - https://1drv.ms/f/c/17fe194b0d499b50/IgAm-rqnytlHQZbOFDELLp7cAfNGFX7GDpH7ZDo3ZOhmMvE
+311 service requests - https://1drv.ms/f/c/17fe194b0d499b50/IgAKtrD9TClGTKTqB77roJowAXDxUUXS-YVxttIkIvhZ3-w
 
 ## Step 2: Feature Engineering and Data Enrichment
 
