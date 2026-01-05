@@ -24,8 +24,8 @@ In parallel, ward information was harmonized to account for Toronto’s transiti
 
 Links to the dataset used in this study: 
 
-Green Spaces, Land Use Charecteristics and Weather - https://1drv.ms/f/c/17fe194b0d499b50/IgAm-rqnytlHQZbOFDELLp7cAfNGFX7GDpH7ZDo3ZOhmMvE
-311 service requests - https://1drv.ms/f/c/17fe194b0d499b50/IgAKtrD9TClGTKTqB77roJowAXDxUUXS-YVxttIkIvhZ3-w
+* Green Spaces, Land Use Charecteristics and Weather - https://1drv.ms/f/c/17fe194b0d499b50/IgAm-rqnytlHQZbOFDELLp7cAfNGFX7GDpH7ZDo3ZOhmMvE
+* 311 service requests - https://1drv.ms/f/c/17fe194b0d499b50/IgAKtrD9TClGTKTqB77roJowAXDxUUXS-YVxttIkIvhZ3-w
 
 ## Step 2: Feature Engineering and Data Enrichment
 
