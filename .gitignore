@@ -1,0 +1,11 @@
+# Raw & processed data (must be ignored)
+Data/
+311servicerequests/
+*.csv
+
+# Jupyter noise
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
