@@ -5,8 +5,8 @@
 
 import React, { useEffect, useMemo, useState } from 'react';
 import { AnimatePresence } from 'motion/react';
-import { MONTHS } from './data/toronto311Data';
-import { dataService } from './data/dataService';
+import { MONTHS } from './constants/toronto311Data';
+import { dataService } from './constants/dataService';
 import {
   CURRENT_YEAR,
   DEFAULT_SECTION,

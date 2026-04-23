@@ -1,6 +1,6 @@
 import React from 'react';
 import { ChevronDown, Filter, RotateCcw } from 'lucide-react';
-import { SECTIONS } from '../data/toronto311Data';
+import { SECTIONS } from '../constants/toronto311Data';
 import { YEARS } from '../constants/dashboard';
 import { cn } from '../lib/utils';
 
