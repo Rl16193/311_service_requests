@@ -39,7 +39,7 @@ const DashboardSidebar: React.FC<DashboardSidebarProps> = ({
       <div className="flex-1 py-8 overflow-y-auto custom-scrollbar">
         <div className="px-8 space-y-8">
           <div className="space-y-3">
-            <label className="block text-[10px] font-semibold text-slate-400 uppercase tracking-wider">Step 1 - Select Section</label>
+            <label className="block text-[10px] font-semibold text-slate-400 uppercase tracking-wider">1. Select Section</label>
             <div className="relative">
               <select
                 value={selectedSection}
@@ -53,7 +53,7 @@ const DashboardSidebar: React.FC<DashboardSidebarProps> = ({
           </div>
 
           <div className="space-y-3">
-            <label className="block text-[10px] font-semibold text-slate-400 uppercase tracking-wider">Step 2 - Select Service Category</label>
+            <label className="block text-[10px] font-semibold text-slate-400 uppercase tracking-wider">2. Select Service Category</label>
             <div className="relative">
               <select
                 value={selectedService}
@@ -67,7 +67,7 @@ const DashboardSidebar: React.FC<DashboardSidebarProps> = ({
           </div>
 
           <div className="space-y-3">
-            <label className="block text-[10px] font-semibold text-slate-400 uppercase tracking-wider">Step 3 - Select Years</label>
+            <label className="block text-[10px] font-semibold text-slate-400 uppercase tracking-wider">3. Select Years</label>
             <div className="flex flex-wrap gap-2">
               {YEARS.map(y => (
                 <button
