@@ -61,8 +61,7 @@ export const dataService = {
         fetch('/data/service_year_summary.json'),       
         fetch('/data/matched_intersections.json'),     
         fetch('/data/top100.json'),                     
-        fetch('/data/monthly_distribution.json'),       
-        fetch('/data/city-wards-data-4326.geojson')    
+        fetch('/data/monthly_distribution.json')       
     ]);
 
     // 🔍 Validate responses BEFORE parsing
