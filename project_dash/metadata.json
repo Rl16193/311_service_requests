@@ -1,0 +1,6 @@
+{
+  "name": "Toronto 311 Dashboard",
+  "description": "Interactive analytics dashboard for Toronto 311 service requests, featuring service trends, year-over-year growth, and ward-based drill-downs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
