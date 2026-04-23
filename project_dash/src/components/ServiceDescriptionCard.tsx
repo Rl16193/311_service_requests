@@ -1,6 +1,6 @@
 import React from 'react';
 import { FileText } from 'lucide-react';
-import type { ServiceDetail } from '../data/dataService';
+import type { ServiceDetail } from '../constants/dataService';
 
 interface ServiceDescriptionCardProps {
   serviceDetail?: ServiceDetail;

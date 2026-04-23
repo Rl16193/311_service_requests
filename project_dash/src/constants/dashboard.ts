@@ -1,4 +1,4 @@
-import type { MonthlyDistribution } from '../data/dataService';
+import type { MonthlyDistribution } from '../constants/dataService';
 
 export const DEFAULT_SECTION = 'Toronto Animal Services';
 export const DEFAULT_SERVICE = 'All';

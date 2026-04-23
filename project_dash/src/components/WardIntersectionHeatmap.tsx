@@ -5,7 +5,7 @@ import 'leaflet/dist/leaflet.css';
 import 'leaflet.heat';
 import { AnimatePresence, motion } from 'motion/react';
 import { RotateCcw } from 'lucide-react';
-import type { IntersectionRequest } from '../data/dataService';
+import type { IntersectionRequest } from '../constants/dataService';
 
 interface WardIntersectionHeatmapProps {
   geoJson: any;

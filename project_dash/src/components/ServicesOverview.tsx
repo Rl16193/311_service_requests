@@ -1,7 +1,7 @@
 import React from 'react';
 import { Building2, Calendar, Layers, MapPinned, MapPin } from 'lucide-react';
 import { motion } from 'motion/react';
-import type { ServiceDetail, ServiceSummary } from '../data/dataService';
+import type { ServiceDetail, ServiceSummary } from '../constants/dataService';
 import type { ServiceTrend } from '../types/dashboard';
 import MetricCard from './MetricCard';
 import TopServicesChart from './TopServicesChart';

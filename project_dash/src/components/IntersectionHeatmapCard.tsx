@@ -1,6 +1,6 @@
 import React from 'react';
 import { MapPin } from 'lucide-react';
-import type { IntersectionRequest } from '../data/dataService';
+import type { IntersectionRequest } from '../constants/dataService';
 import WardIntersectionHeatmap from './WardIntersectionHeatmap';
 
 interface IntersectionHeatmapCardProps {

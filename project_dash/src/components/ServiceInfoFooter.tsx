@@ -1,6 +1,6 @@
 import React from 'react';
 import { Clock3, ExternalLink, Info } from 'lucide-react';
-import type { ServiceDetail } from '../data/dataService';
+import type { ServiceDetail } from '../constants/dataService';
 
 interface ServiceInfoFooterProps {
   serviceDetail?: ServiceDetail;

@@ -1,5 +1,5 @@
 import type { LucideIcon } from 'lucide-react';
-import type { IntersectionRequest, MonthlyDistribution, ServiceDetail, ServiceSummary } from '../data/dataService';
+import type { IntersectionRequest, MonthlyDistribution, ServiceDetail, ServiceSummary } from '../constants/dataService';
 
 export type DashboardTab = 'services' | 'wards';
 

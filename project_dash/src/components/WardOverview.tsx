@@ -1,7 +1,7 @@
 import React from 'react';
 import { Activity, MapPin, MapPinned } from 'lucide-react';
 import { motion } from 'motion/react';
-import type { IntersectionRequest } from '../data/dataService';
+import type { IntersectionRequest } from '../constants/dataService';
 import type { IntersectionSummary, ServiceTrend, WardMetricData } from '../types/dashboard';
 import WardSelectorCard from './WardSelectorCard';
 import WardSummaryCard from './WardSummaryCard';
