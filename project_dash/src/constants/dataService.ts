@@ -57,12 +57,12 @@ const normalizeServiceKey = (service: string) =>
 export const dataService = {
   async loadData() {
     try {
-      const [summaryRes, monthlyRes, intersectionsRes, serviceDetailsRes] = await Promise.all([
+const [summaryRes, monthlyRes, intersectionsRes, serviceDetailsRes] = await Promise.all([
         fetch('/data/service_year_summary.json'),       
+        fetch('/data/monthly_distribution.json'),     
         fetch('/data/matched_intersections.json'),     
-        fetch('/data/top100.json'),                     
-        fetch('/data/monthly_distribution.json')       
-    ]);
+        fetch('/data/top100.json')       
+      ]);
 
     // 🔍 Validate responses BEFORE parsing
     if (!summaryRes.ok) throw new Error('Failed to load service_year_summary');
