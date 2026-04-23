@@ -103,7 +103,7 @@ export const dataService = {
         return {
           ...item,
           service_request_type: canonicalServiceName(item.service_request_type || ''),
-          section: normalizeSection(item.section || ''),
+          section: (item.section || ''),
           yoy_change: parseFloat(yoy.toFixed(1))
         };
       });
@@ -113,7 +113,7 @@ export const dataService = {
         monthlySummary: monthlyData.map((m: any) => ({
           ...m,
           service_request_type: canonicalServiceName(m.service_request_type || ''),
-          section: normalizeSection(m.section || ''),
+          section: (m.section || ''),
           request_count: m.monthly_requests || m.request_count || 0
         })),
         intersections: intersectionsData.map((item: any) => ({
@@ -121,7 +121,7 @@ export const dataService = {
           ward: item.ward || '',
           year: Number(item.year),
           service_request_type: canonicalServiceName(item.service_request_type || ''),
-          section: normalizeSection(item.section || ''),
+          section: (item.section || ''),
           yearly_requests: Number(item.yearly_requests || 0),
           lat: Number(item.lat || item.Latitude),
           long: Number(item.long || item.Longitude)
