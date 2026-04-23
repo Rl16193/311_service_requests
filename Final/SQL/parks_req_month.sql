@@ -15,6 +15,11 @@ SET service_request_type = CASE
   WHEN service_request_type = 'Stemming' THEN 'General Pruning'
   WHEN service_request_type = 'Hydro Brush Pick Up' THEN 'Tree Brush Pick Up'
   WHEN service_request_type = 'Planting 11 Plus Trees Fnem' THEN 'Planting 11 Plus Trees'
+  WHEN service_request_type = 'General Tree Inspection' THEN 'Ended'
+  WHEN service_request_type = 'EAB Exemption Request' THEN 'Ended'
+  WHEN service_request_type = 'Permit Inspection' THEN 'Ended'
+  WHEN service_request_type = 'Misc: Non-Forest Activity' THEN 'Ended'
+  WHEN service_request_type = 'MLS Hazard Tree Investigation' THEN 'Ended '
   ELSE service_request_type
 END;
 
