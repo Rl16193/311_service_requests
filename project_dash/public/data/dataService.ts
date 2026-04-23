@@ -45,14 +45,6 @@ export interface ServiceDetail {
   Link: string;
 }
 
-const normalizeSection = (section: string) => {
-  if (section === 'Forestry & Recreation' || section === 'Forestry Operations') {
-    return 'Climate & Forestry';
-  }
-
-  return section;
-};
-
 const normalizeServiceKey = (service: string) =>
   service
     .toLowerCase()
@@ -66,10 +58,11 @@ export const dataService = {
   async loadData() {
     try {
       const [summaryRes, monthlyRes, intersectionsRes, serviceDetailsRes] = await Promise.all([
-      fetch('/src/data/service_year_summary.json'),
-      fetch('/src/data/monthly_distribution.json'),
-      fetch('/src/data/matched_intersections.json'),
-      fetch('/src/data/top100.json')
+        fetch('/data/service_year_summary.json'),       
+        fetch('/data/matched_intersections.json'),     
+        fetch('/data/top100.json'),                     
+        fetch('/data/monthly_distribution.json'),       
+        fetch('/data/city-wards-data-4326.geojson')    
     ]);
 
     // 🔍 Validate responses BEFORE parsing
