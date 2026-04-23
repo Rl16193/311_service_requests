@@ -152,7 +152,7 @@ export const dataService = {
 
   async loadGeoJson() {
     try {
-      const res = await fetch('data/city-wards-data-4326.geojson');
+      const res = await fetch('/data/city-wards-data-4326.geojson');
       return await res.json();
     } catch (error) {
       console.error('Failed to load GeoJSON:', error);
